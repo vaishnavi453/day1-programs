@@ -1,0 +1,13 @@
+public class Ass
+{
+	public static void main(String[] args)
+{
+//initializing for loop to print a to z ASCII values(97 to 123)
+	for(char ch='a';ch<='z';ch++)
+{
+//type casting char to int
+	int a=(int)ch;
+	System.out.println("ASCII value for "+ch+" is "+a);
+}
+}
+}
