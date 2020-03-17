@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Personaldetails
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+String inputString=sc.nextLine();
+
+String array[]=inputString.split(", ");
+	System.out.println("Name:"+array[0]);
+         System.out.println("Age:"+array[1]);
+         System.out.println("Gender:"+array[2]);
+       
+
+}
+}
+
