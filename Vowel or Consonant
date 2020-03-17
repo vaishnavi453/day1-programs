@@ -1,0 +1,33 @@
+	import java.util.Scanner;
+		public class Vowelorconsonant
+{
+	public static void main(String[] args)
+{
+		Scanner sc=new Scanner(System.in); //Read the data
+             char ch=  sc.nextLine().toLowerCase().charAt(0); //Converting char into strings
+
+	
+    	switch(ch) //using switch case statement
+	{
+		case'a':
+		case'e':
+		case'i':
+		case'o':
+		case'u':
+	System.out.println(ch +"is a vowel");//print the vowel
+		break;
+	default:
+		  if(ch>=97 && ch<=122)//check whether it is character or not
+  		   {
+      
+			System.out.println(ch +"is a consonant");
+      
+		}
+	
+		else
+		{
+				System.out.println("Wrong data");
+		}
+}
+}
+}
