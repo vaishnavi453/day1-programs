@@ -1,0 +1,17 @@
+public class Qr
+{
+public static void main(String[] args)
+{
+
+   int dividend=55;
+  int divisor=8;
+  //calculate quotient
+  int Q=dividend/divisor;
+//print quotient
+System.out.println("Quotitient "+Q);
+//calculate remainder
+int R=dividend%divisor;
+//print remainder
+System.out.println("Remainder "+R);
+}
+} 
