@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+public class Sum
+
+
+
+ {
+
+	public static void main(String[] args)
+
+	 {
+
+		//Initialize the values to sum and count for Positive numbers
+
+		
+
+		int sum=0,count=0;
+
+		int[] numbers=new int[5];
+
+		Scanner sc=new java.util.Scanner(System.in);
+
+
+
+		 //take the input of 5 numbers from the console into an array
+
+		
+
+		for(int i=0; i<5 ; i++)
+
+		numbers[i]=sc.nextInt();
+
+		//Now give all numbers as an input for pos variable
+
+		for(int pos:numbers)
+
+		{
+
+		//if the numbers are positive then enter the loop to calculate sum
+
+		if(pos >= 0) {
+
+		sum=sum+pos;
+
+		count++; //count defines the number of positive numbers for average
+
+
+
+		}
+
+		}
+
+		System.out.println(sum);
+
+		sc.close();
+
+	}
+
+
+
+}
