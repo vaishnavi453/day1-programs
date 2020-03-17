@@ -1,0 +1,20 @@
+//Using scanner to read number of days	
+import java.util.Scanner;
+		public class Days
+{
+	public static void main(String[] args)
+{
+//Creating new scanner sc
+		Scanner sc=new Scanner(System.in);
+	System.out.println("Number of days:");
+//Reading number of days
+		int days=sc.nextInt();
+//Finding number of years from given days 
+	int year=days/365;
+//Finding number of weeks from given number of days
+		int week=(days%365)/7;
+//Finding number of remaining days from given number of days  
+	int remdays=((days%365)%7);
+		System.out.println("Number of years="+year+ " Number of weeks="+week+ " Number of days="+remdays);
+}
+}
