@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Array
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+//iniatialiazing the Array values
+int[] data={10,20,32,50,60};
+int i;
+int x=-1;
+boolean found=false;
+for(i=0;i<=data.length-1;i++)//checking Array indexes
+{
+ if(n==data[i])
+ {
+  found=true;
+  x=i;
+  break;
+ }
+}
+ if(found)
+
+ System.out.println("found"+"@pos" +x);
+
+else
+
+  System.out.println("is not found");
+}//end of main
+}//end of class
